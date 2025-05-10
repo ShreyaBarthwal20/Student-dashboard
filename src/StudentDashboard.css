@@ -1,0 +1,197 @@
+/* src/StudentDashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  background-color: #f5fff5;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a5c25;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h2 {
+  margin: 0;
+}
+
+.add-student-form {
+  background-color: #e2f7e2;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.add-student-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+.add-student-form button {
+  padding: 10px 20px;
+  background-color: #0a5c25;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-student-form button:hover {
+  background-color: #0e7c35;
+}
+
+.filter {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-item {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.student-item strong {
+  font-size: 16px;
+}
+
+.remove-button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.remove-button:hover {
+  background-color: #c62828;
+}
+.student-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* <-- This aligns text to the left */
+}
+
+
+.student-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.student-subject {
+  font-size: 14px;
+  color: #444;
+  margin-top: 4px;
+  width: 100%;
+  text-align: left;
+}
+.subject-badge {
+  background-color: #d2f4d2;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 4px;
+  margin-right: 6px;
+}
+/* ========== RESPONSIVE ENHANCEMENTS ========== */
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .add-student-form input,
+  .add-student-form button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .filter {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .student-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .remove-button {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+
+  .student-info {
+    width: 100%;
+  }
+
+  .student-name {
+    font-size: 16px;
+  }
+
+  .student-subject {
+    font-size: 14px;
+  }
+}
+
+/* Animation for add/remove */
+.fade-slide-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+.fade-slide-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.fade-slide-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-slide-exit-active {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
+}

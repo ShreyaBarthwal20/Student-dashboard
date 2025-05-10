@@ -1,0 +1,82 @@
+/* src/App.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f9f1;
+}
+
+.auth-container, .dashboard-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.form-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.dashboard {
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+th {
+  background-color: #28a745;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #28a745;
+  padding: 1rem;
+  color: white;
+  align-items: center;
+}
+
+.toggle-btn {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  color: #28a745;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Aarav Sharma",
+    "department": "Computer Science",
+    "subject": ["Data Structures", "Operating Systems"],
+    "enrollment": "CS202301"
+  },
+  {
+    "name": "Diya Verma",
+    "department": "Information Technology",
+    "subject": ["Web Development", "Networking"],
+    "enrollment": "IT202302"
+  },
+  {
+    "name": "Kunal Joshi",
+    "department": "Electronics",
+    "subject": ["Digital Circuits", "Microprocessors"],
+    "enrollment": "EC202303"
+  },
+  {
+    "name": "Sneha Raj",
+    "department": "Mechanical",
+    "subject": ["Thermodynamics", "Fluid Mechanics"],
+    "enrollment": "ME202304"
+  },
+  {
+    "name": "Nisha Yadav",
+    "department": "Computer Science",
+    "subject": ["Operating Systems", "Algorithms"],
+    "enrollment": "CS202305"
+  },
+  {
+    "name": "Rohan Mehta",
+    "department": "Civil",
+    "subject": ["Structural Analysis", "Surveying"],
+    "enrollment": "CE202306"
+  },
+  {
+    "name": "Ishita Kapoor",
+    "department": "Information Technology",
+    "subject": ["Cloud Computing", "AI"],
+    "enrollment": "IT202307"
+  },
+  {
+    "name": "Manav Bansal",
+    "department": "Computer Science",
+    "subject": ["DBMS", "Machine Learning"],
+    "enrollment": "CS202308"
+  },
+  {
+    "name": "Tanvi Rao",
+    "department": "Mechanical",
+    "subject": ["Heat Transfer", "Dynamics"],
+    "enrollment": "ME202309"
+  },
+  {
+    "name": "Rajeev Singh",
+    "department": "Electronics",
+    "subject": ["Signal Processing", "VLSI"],
+    "enrollment": "EC202310"
+  },
+  {
+    "name": "Kritika Jain",
+    "department": "Civil",
+    "subject": ["Concrete Technology", "Water Resources"],
+    "enrollment": "CE202311"
+  },
+  {
+    "name": "Mohit Chawla",
+    "department": "Information Technology",
+    "subject": ["JavaScript", "React"],
+    "enrollment": "IT202312"
+  },
+  {
+    "name": "Sanya Arora",
+    "department": "Computer Science",
+    "subject": ["AI", "Data Mining"],
+    "enrollment": "CS202313"
+  },
+  {
+    "name": "Yash Patel",
+    "department": "Mechanical",
+    "subject": ["Kinematics", "Material Science"],
+    "enrollment": "ME202314"
+  },
+  {
+    "name": "Ritika Thakur",
+    "department": "Electronics",
+    "subject": ["Communication Systems", "Embedded Systems"],
+    "enrollment": "EC202315"
+  },
+  {
+    "name": "Vikram Iyer",
+    "department": "Civil",
+    "subject": ["Environmental Engineering", "Soil Mechanics"],
+    "enrollment": "CE202316"
+  },
+  {
+    "name": "Ananya Gupta",
+    "department": "Information Technology",
+    "subject": ["Cyber Security", "Mobile App Dev"],
+    "enrollment": "IT202317"
+  },
+  {
+    "name": "Harsh Vardhan",
+    "department": "Computer Science",
+    "subject": ["Software Engineering", "Operating Systems"],
+    "enrollment": "CS202318"
+  },
+  {
+    "name": "Pooja Kumari",
+    "department": "Mechanical",
+    "subject": ["CAD", "Manufacturing"],
+    "enrollment": "ME202319"
+  },
+  {
+    "name": "Amitabh Seth",
+    "department": "Electronics",
+    "subject": ["Analog Electronics", "Nano Technology"],
+    "enrollment": "EC202320"
+  },
+  {
+    "name": "Divya Nair",
+    "department": "Civil",
+    "subject": ["Transportation", "Building Construction"],
+    "enrollment": "CE202321"
+  },
+  {
+    "name": "Zoya Khan",
+    "department": "Information Technology",
+    "subject": ["Big Data", "Cloud Computing"],
+    "enrollment": "IT202322"
+  },
+  {
+    "name": "Aditya Narayan",
+    "department": "Computer Science",
+    "subject": ["Computer Vision", "Data Science"],
+    "enrollment": "CS202323"
+  },
+  {
+    "name": "Preeti Joshi",
+    "department": "Mechanical",
+    "subject": ["Mechatronics", "Engineering Design"],
+    "enrollment": "ME202324"
+  },
+  {
+    "name": "Sameer Rana",
+    "department": "Electronics",
+    "subject": ["Control Systems", "IoT"],
+    "enrollment": "EC202325"
+  },
+  {
+    "name": "Ria Mehra",
+    "department": "Civil",
+    "subject": ["Hydrology", "Earthquake Engineering"],
+    "enrollment": "CE202326"
+  },
+  {
+    "name": "Neha Rawat",
+    "department": "Information Technology",
+    "subject": ["Python", "APIs"],
+    "enrollment": "IT202327"
+  },
+  {
+    "name": "Shivam Tiwari",
+    "department": "Computer Science",
+    "subject": ["ML", "Natural Language Processing"],
+    "enrollment": "CS202328"
+  },
+  {
+    "name": "Kiran Salvi",
+    "department": "Mechanical",
+    "subject": ["Machine Design", "Mechanics"],
+    "enrollment": "ME202329"
+  },
+  {
+    "name": "Imran Ali",
+    "department": "Electronics",
+    "subject": ["Power Electronics", "Sensors"],
+    "enrollment": "EC202330"
+  },
+  {
+    "name": "Snehal Desai",
+    "department": "Civil",
+    "subject": ["Geotechnical Engineering", "Remote Sensing"],
+    "enrollment": "CE202331"
+  },
+  {
+    "name": "Rahul Meena",
+    "department": "Information Technology",
+    "subject": ["System Design", "Serverless Architecture"],
+    "enrollment": "IT202332"
+  },
+  {
+    "name": "Kavita Sinha",
+    "department": "Computer Science",
+    "subject": ["Deep Learning", "Neural Networks"],
+    "enrollment": "CS202333"
+  },
+  {
+    "name": "Deepak Goel",
+    "department": "Mechanical",
+    "subject": ["Engineering Drawing", "Vibration"],
+    "enrollment": "ME202334"
+  },
+  {
+    "name": "Mitali Rao",
+    "department": "Electronics",
+    "subject": ["FPGA Design", "Digital Signal Processing"],
+    "enrollment": "EC202335"
+  },
+  {
+    "name": "Yuvraj Singh",
+    "department": "Civil",
+    "subject": ["Design of Structures", "Construction Management"],
+    "enrollment": "CE202336"
+  },
+  {
+    "name": "Aashi Sharma",
+    "department": "Information Technology",
+    "subject": ["UI/UX", "Node.js"],
+    "enrollment": "IT202337"
+  },
+  {
+    "name": "Bhavin Shah",
+    "department": "Computer Science",
+    "subject": ["C++", "Operating Systems"],
+    "enrollment": "CS202338"
+  },
+  {
+    "name": "Nandita Sen",
+    "department": "Mechanical",
+    "subject": ["Combustion", "Robotics"],
+    "enrollment": "ME202339"
+  },
+  {
+    "name": "Jatin Kumar",
+    "department": "Electronics",
+    "subject": ["Analog Circuits", "RF Design"],
+    "enrollment": "EC202340"
+  },
+  {
+    "name": "Ayesha Khan",
+    "department": "Civil",
+    "subject": ["Urban Planning", "Concrete Design"],
+    "enrollment": "CE202341"
+  },
+  {
+    "name": "Raj Malhotra",
+    "department": "Information Technology",
+    "subject": ["Blockchain", "DevOps"],
+    "enrollment": "IT202342"
+  },
+  {
+    "name": "Priya Taneja",
+    "department": "Computer Science",
+    "subject": ["Java", "Python"],
+    "enrollment": "CS202343"
+  },
+  {
+    "name": "Mayank Rathi",
+    "department": "Mechanical",
+    "subject": ["CFD", "Hydraulics"],
+    "enrollment": "ME202344"
+  },
+  {
+    "name": "Tanya Mishra",
+    "department": "Electronics",
+    "subject": ["Wireless Communication", "Signal Theory"],
+    "enrollment": "EC202345"
+  },
+  {
+    "name": "Arjun Reddy",
+    "department": "Civil",
+    "subject": ["Surveying", "Transportation"],
+    "enrollment": "CE202346"
+  },
+  {
+    "name": "Esha Kapoor",
+    "department": "Information Technology",
+    "subject": ["SQL", "API Integration"],
+    "enrollment": "IT202347"
+  },
+  {
+    "name": "Akhil Nair",
+    "department": "Computer Science",
+    "subject": ["Compiler Design", "Information Security"],
+    "enrollment": "CS202348"
+  },
+  {
+    "name": "Garima Dixit",
+    "department": "Mechanical",
+    "subject": ["Dynamics", "CAM"],
+    "enrollment": "ME202349"
+  },
+  {
+    "name": "Farhan Qureshi",
+    "department": "Electronics",
+    "subject": ["Embedded C", "ASIC Design"],
+    "enrollment": "EC202350"
+  }
+]
